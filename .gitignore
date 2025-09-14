@@ -1,1 +1,10 @@
 model/
+# Flask specific
+__pycache__/
+*.pyc
+instance/
+.flaskenv
+
+# Uploaded and Colorized Images
+uploads/
+colorized_images/
