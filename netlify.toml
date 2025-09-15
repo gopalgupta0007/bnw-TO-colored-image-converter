@@ -1,0 +1,6 @@
+[build]
+  command = "pip install -r requirements.txt && gunicorn app:app"
+  publish = "templates"
+
+[functions]
+  python_version = "3.9" # You can adjust this to your preferred Python version
