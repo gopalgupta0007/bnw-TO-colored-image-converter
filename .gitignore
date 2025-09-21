@@ -1,4 +1,4 @@
-model/
+# model/
 # Flask specific
 __pycache__/
 *.pyc
